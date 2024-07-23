@@ -1,3 +1,71 @@
-p{
-    color: aliceblue;
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #343637;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #343637;
+}
+
+.card {
+    width: 300px; /* Adjust width as needed */
+    text-align: center;
+    box-shadow: 5px;
+    border: 2px solid #333;
+    
+}
+
+.profile-image {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Ensure it stays a circle */
+    display: block;
+    margin: 10px auto; /* Center and add some top margin */
+}
+
+.icons i {
+    font-size: 1.5em;
+    margin: 5px;
+    transition: color 0.3s, transform 0.3s;
+    color: #333; /* Adjust icon color if needed */
+}
+
+.button {
+    margin-top: 2px;
+}
+
+.button .btn {
+    margin: 5px;
+}
+
+.icons #facebook:hover
+{
+    color: blue;
+    transform: scale(1.2)
+}
+.icons #instagram:hover
+{
+    color: rgb(238, 0, 255);
+    transform: scale(1.2)
+}
+.icons #linkedin:hover
+{
+    color: rgb(0, 47, 255);
+    transform: scale(1.2)
+}
+.icons #github:hover
+{
+    color: black;
+    transform: scale(1.2)
+}
+.button .btn #Connect :hover
+{
+    color: black;
 }
